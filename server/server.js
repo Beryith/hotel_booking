@@ -11,7 +11,7 @@ const app = express();
 app.use(cors());// Enable Cross-Origin Resource Sharing
 
 
-// Middleware 
+// le Middleware  
 app.use(express.json()); 
 app.use(clerkMiddleware())
 
